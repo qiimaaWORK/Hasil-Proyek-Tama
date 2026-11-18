@@ -65,16 +65,17 @@
                                 <img src="asset/logo-no-bg.png" alt="Guest Book" width="19%">
                             </a>
                             <legend><marquee behavior="scroll" direction="right"><font color="black" face="monospace" size="5">Guest</font><font color="orange" face="monospace" size="5">Book</font></marquee></legend>
-                        </fieldset>
+                        <br>
                         <label for="name"><font color="white" face="monospace" size="3">Nama:</font></label><br>
                         <input type="text" id="name" name="name" required><br><br>
                         <label for="name"><font color="white" face="monospace" size="3">Kelas:</font></label><br>
-                        <input type="text" id="name" name="name" required><br><br>
+                        <input type="text" id="name" name="name" required maxlength="10"><br><br>
 
                         <label for="message"><font color="white" face="monospace" size="3">Pesan:</font></label><br>
                         <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
                         <input type="reset" value="Reset">
                         <input type="submit" value="Kirim">
+                        </fieldset>
                 </td>
             </tr>
             </table>
@@ -95,9 +96,6 @@
 
         <tr height="100">
             <td colspan="5" background="asset/guestbook.gif">&nbsp;</td>
-            <!-- <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td> -->
         </tr>
     
         </table>
